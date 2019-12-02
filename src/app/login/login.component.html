@@ -1,0 +1,17 @@
+<div id="login">
+    <img src="../../assets/logo.png" width="100"><br>
+    <mat-form-field appearance="outline" color="accent">
+        <mat-label>Enter email</mat-label>
+        <input placeholder="" matInput [(ngModel)]="userEmail">
+        <mat-icon matSuffix color="accent">email</mat-icon>
+
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline" color="accent">
+        <mat-label>Enter Password</mat-label>
+        <input placeholder="" matInput type="password" [(ngModel)]="userPassword">
+        <mat-icon matSuffix color="accent">lock</mat-icon>
+    </mat-form-field>
+    <br><br><br>
+    <button #myButton mat-raised-button (click)="checkLogin()">Login</button>
+</div>

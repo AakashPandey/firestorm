@@ -1,0 +1,6 @@
+<div>
+    <p>{{ loggedUser }}</p><br><br>
+    <p *ngIf="authService.isLoggedIn">
+        <button mat-raised-button (click)="authService.logout()">Logout</button>
+    </p>
+</div>

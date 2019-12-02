@@ -1,0 +1,20 @@
+span {
+    color: white;
+}
+
+mat-toolbar {
+    display: grid;
+    padding-left: 50px;
+    /* grid-template-columns: 1fr 90px 90px 100px; */
+    grid-template-columns: 1fr  100px;
+}
+
+mat-toolbar a {
+    text-decoration: none;
+    font-size: 95%;
+    color: whitesmoke;
+}
+
+mat-toolbar a:hover {
+    color: orange;
+}
